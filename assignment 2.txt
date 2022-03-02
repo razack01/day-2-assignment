@@ -1,0 +1,62 @@
+
+Brower.js							Node.js
+
+1.Used for client side applications			used for server side Applicaations
+2.executed in browser					executed outside the browser
+3.browser.js is used for front end			node.js is used for backend
+
+
+
+
+			
+4.Browser.js is sandboxed for the safety purposes 
+and have access limited to the browser
+							Node.js has full system access ,it							
+							can read and write directly to the
+ 							file system like any other application.
+
+5.browser.js runs any engine like  			 Node.js runs in a V8 engine which is mainly used by google chrome.
+ JavaScript Core (Safari), V8 (Google Chrome)
+
+
+4.typeof(1)-number
+
+typeof(1.1)-number
+
+typeof('1.1')-string
+
+typeof(true)-boolean
+
+typeof(null)-object
+
+typeof(undefined)-undefined
+
+typeof([])-object
+
+typeof({})-object
+
+typeof(NaN)-number
+
+
+HOW THE BROWSER RENDERS A WEBPAGE?
+
+1.Whenever you are developing a website, there are certain things that are very essential for a good user experience. Some of the common problems a website may encounter could be slow loading of the resources, waiting for unnecessary files to download on initial render, a flash of unstyled content (FOUC), etc. To avoid such problems, we need to understand the lifecycle of how a browser renders a typical webpage.
+
+2.When a browser sends a request to a server to fetch an HTML document, the server returns an HTML page in binary stream format which is basically a text file with the response header
+
+3.If this header is missing, the browser would not understand how to process the file and it will render in plain text format. But if everything is OK, after this conversion, the browser can start reading the HTML document.
+
+4.Document Object Model (DOM):
+When the browser reads HTML code, whenever it encounters an HTML element like html, body, div etc., it creates a JavaScript object called a Node. Eventually, all HTML elements will be converted to JavaScript objects.
+
+
+5.After the browser has created Nodes from the HTML document, it has to create a tree-like structure of these node objects. Since our HTML elements in the HTML file are nested inside each other, the browser needs to replicate that but using Node objects it has previously created. This will help the browser efficiently render and manage the webpage throughout its lifecycle.
+
+
+
+
+
+
+
+
+
